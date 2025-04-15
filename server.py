@@ -3,11 +3,11 @@ from flask_cors import CORS
 
 # Google Gemini
 from google import genai
-genai_client = genai.Client(api_key="AIzaSyDEH9wwhq4vCiD1lDWLwndGREB7jaeNmfI")
+genai_client = genai.Client(api_key="AIzaSyCtcgqIP1m_zLCz5GmetpYzMB1fB-1sJfQ")
 
 # Groq models
 from groq import Groq
-groq_client = Groq(api_key="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")
+groq_client = Groq(api_key="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")
 
 app = Flask(__name__)
 CORS(app)
